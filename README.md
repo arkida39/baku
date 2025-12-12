@@ -18,7 +18,7 @@ Mill:
 ivy"io.github.arkida39::baku:<version>"
 ```
 
-> _replace `version` with the version of **Baku**. Each **Baku** release has a version in format: `<tapir version>.<baku version>`, for example `1.12.4.0` is made for Tapir version `1.12.4`._
+> _replace `version` with the version of **Baku**. Each **Baku** release has a version in format: `<min. tapir version>.<baku version>`, for example `1.12.4.0` is compatible with Tapir `1.12.4` and all newer patch releases (e.g., `1.12.9`), but is not guaranteed to work with the next minor/major version (e.g., `1.13.0`)._
 
 ## Usage
 
